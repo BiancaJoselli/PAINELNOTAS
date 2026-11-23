@@ -28,16 +28,16 @@ class RelatorioTexto(GeradorRelatorio):
                 else "sem média"
             )
             linhas.append(
-                f" {resumo.aluno.nome} {resumo.aluno.turma} "
-                f"média {media} {resumo.situacao}"
+                f" {resumo.aluno.nome:<25} {resumo.aluno.turma:<6} "
+                f"média {media:<8} {resumo.situacao}"
             )
 
         linhas.extend(["", "Média por disciplina"])
         for disciplina, media in sorted(resultado.medias_disciplinas.items()):
-            linhas.append(f" {disciplina} {media:.2f}")
+            linhas.append(f" {disciplina:<25} {media:.2f}")
 
         linhas.extend(["", f"Erros encontrados ({len(resultado.erros)})"])
-        linhas.extend(f" {erro}" for erro in resultado.erros)
+        linhas.extend(f"{erro}   " for erro in resultado.erros)
 
         return "\n".join(linhas) + "\n"
 

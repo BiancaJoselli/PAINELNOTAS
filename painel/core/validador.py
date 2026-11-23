@@ -39,15 +39,15 @@ def validar_alunos(
             matricula = int(matricula_texto)
         except ValueError:
             erros.append(
-                f"alunos.csv:{numero_linha} "
-                f"matricula_invalida: {matricula_texto}"
+                f"alunos.csv:{numero_linha}  "
+                f"matricula inexistente {matricula_texto}"
             )
             continue
 
         if matricula in matriculas_cadastradas:
             erros.append(
-                f"alunos.csv:{numero_linha}"
-                f"matricula_duplicada: {matricula}"
+                f"alunos.csv:{numero_linha}  "
+                f"matricula {matricula} já cadastrada"
             )
             continue
 
