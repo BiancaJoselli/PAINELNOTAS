@@ -1,0 +1,76 @@
+PAINEL DE NOTAS - RESUMO
+Alunos processados: 32
+Registros de nota válidos: 457 | inválidos: 27
+
+Situação dos alunos
+ Ana Souza 3A média 8.05 aprovado
+ Bruno Lima 3B média 7.89 aprovado
+ Carla Dias 3C média 6.91 aprovado
+ Daniel Rocha 3A média 6.22 aprovado
+ Eduarda Martins 3B média 7.28 aprovado
+ Felipe Andrade 3C média 6.89 aprovado
+ Gabriela Nunes 3A média 6.95 aprovado
+ Henrique Costa 3B média 9.35 aprovado
+ Isabela Prado 3C média 6.59 aprovado
+ João Pedro Alves 3A média 7.58 aprovado
+ Karina Moreira 3B média 4.65 recuperação
+ Leonardo Teixeira 3C média 4.66 recuperação
+ Marina Ferreira 3A média 5.63 recuperação
+ Nicolas Barros 3B média 4.49 recuperação
+ Olívia Ribeiro 3C média 6.03 aprovado
+ Paulo Henrique Cunha 3A média 4.45 recuperação
+ Quésia Lopes 3B média 3.59 reprovado
+ Rafael Monteiro 3C média 3.26 reprovado
+ Sofia Carvalho 3A média 4.11 recuperação
+ Thiago Azevedo 3B média 5.72 recuperação
+ Úrsula Pinto 3C média 7.53 aprovado
+ Vitor Hugo Melo 3A média 7.99 aprovado
+ Wesley Santana 3B média 5.51 recuperação
+ Yasmin Duarte 3C média 6.55 aprovado
+ Zélia Campos 3A média 8.38 aprovado
+ Arthur Machado 3B média 4.25 recuperação
+ Beatriz Fontes 3C média 2.71 reprovado
+ Caio Vasconcelos 3A média 6.62 aprovado
+ Diana Siqueira 3B média 7.35 aprovado
+ Enzo Borges 3C média 9.14 aprovado
+ Fernanda Leal 3A média 5.66 recuperação
+ Guilherme Torres 3B média 5.96 recuperação
+
+Média por disciplina
+ Física 6.29
+ História 6.31
+ Inglês 6.02
+ Matemática 6.31
+ Português 6.18
+
+Erros encontrados (30)
+ alunos.csv:7matricula_duplicada: 1004
+ alunos.csv:15 campo_vazio: nome
+ alunos.csv:23 matricula_invalida: 10x7
+ notas.csv:3 matricula_inexistente: 1033
+ notas.csv:35 campo_vazio: nota
+ notas.csv:51 campo_vazio: nota
+ notas.csv:52 nota_invalida: --
+ notas.csv:65 nota_fora_do_intervalo: 12
+ notas.csv:80 avaliacao_duplicada: 1032História P2
+ notas.csv:114 nota_fora_do_intervalo: 11.0
+ notas.csv:123 matricula_inexistente: 9999
+ notas.csv:162 matricula_inexistente: 2001
+ notas.csv:167 matricula_inexistente: 1099
+ notas.csv:177 campo_vazio: avaliacao
+ notas.csv:180 nota_fora_do_intervalo: 100
+ notas.csv:206 nota_fora_do_intervalo: 10.5
+ notas.csv:215 avaliacao_duplicada: 1027Física P2
+ notas.csv:217 nota_invalida: dez
+ notas.csv:238 nota_fora_do_intervalo: -1.0
+ notas.csv:240 avaliacao_duplicada: 1008Inglês P2
+ notas.csv:269 nota_invalida: abc
+ notas.csv:312 nota_fora_do_intervalo: -0.5
+ notas.csv:325 nota_invalida: NA
+ notas.csv:327 avaliacao_duplicada: 1008Física P1
+ notas.csv:331 nota_invalida: oito
+ notas.csv:343 campo_vazio: matricula
+ notas.csv:396 campo_vazio: disciplina
+ notas.csv:457 nota_invalida: 7.5.0
+ notas.csv:461 campo_vazio: nota
+ notas.csv:465 matricula_inexistente: 1000
